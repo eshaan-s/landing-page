@@ -6,11 +6,11 @@
 
 header {
     display : flex;
-    padding : 10px;
+    padding : 0px 20px;
     margin : 0;
     justify-content: space-between;
     font-family:Roboto;
-    background-color: #1F2937;
+    background-color: #1c2534;
     color: white;
 }
 
@@ -20,7 +20,7 @@ body{
 
 nav{
     display: flex;
-    gap : 20px;
+    gap : 45px;
     align-items: center;
 }
 
@@ -36,12 +36,86 @@ nav a{
     padding: 80px 10px;
 }
 
-.main-text p {
-    color : lightslategray;
-    background-color: #1F2937;
+.main-words button{
+    font-size:x-large;
+    color:white;
+    background-color: blue;
+    border-radius: 10px;
 }
-.main-text .main-img{
-    display : flex;
-    padding : 0px 100px;
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.placeholder{
+    background-color: #6b7280;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    color: white;
+}
+
+.placeholder img{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.body-heading{
+    display :flex;
+    justify-content:center;
+}
+
+.body-images{
+    display:flex;
+    padding:50px 10px;
+    display:flex;
+    gap: 120px;
+    justify-content : center;
+    align-items:center;
+}
+
+.image-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    border: 5px solid lightblue;
+    border-radius: 10px;
+}
+
+.quote-body{
+    padding: 40px;
+    margin: 30px 0px;
+    background-color: #E5E7EB;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+.quote-credit{
+    font-weight:600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
 }
